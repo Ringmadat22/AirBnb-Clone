@@ -33,7 +33,7 @@ function Header() {
                             </ul>
                         </div>
 
-                        <div className='rigth-upper-div'>
+                        <div className='right-upper-div'>
                             <ul className='right-ul'>
                                 <li>
                                     <a href='#index'>Airbnb your home</a>
@@ -43,7 +43,7 @@ function Header() {
                                     <a href='#index'><LuGlobe /></a>
                                 </li>
 
-                                <button className='userbutton'><IoIosMenu /> <BiUserCircle /></button>
+                                <button className='user-button'><IoIosMenu style={{paddingTop:"8px",fontSize:"30px"}} /> <BiUserCircle style={{paddingTop:"9px", fontSize:"2rem"}}/></button>
                             </ul>
                         </div>
 

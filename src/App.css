@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,900&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  font-family: 'poppins', sans-serif;
+}
+
+li, a {
+  list-style: none;
+  color: #000;
+  text-decoration: none;
+
 }
 
 header {
@@ -56,10 +67,11 @@ header {
 .middle-upper-div .middle-ul li a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.564);
-  padding: 15px 20px;
+  padding: 13px 20px;
   transition: all ease 0.3s;
   border-radius: 30px;
-  font-size: 1.1rem;
+  font-size: 15px;
+
 }
 
 .middle-upper-div .middle-ul li a:hover {
@@ -71,3 +83,38 @@ header {
   width: 150px;
 }
 
+.right-upper-div ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  margin-top: 7px;
+}
+
+.right-upper-div ul li {
+  list-style: none;
+}
+
+.right-upper-div ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 13px 20px;
+  transition: all ease 0.3s;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+.right-upper-div ul li a:hover {
+  background-color: rgba(174, 169, 169, 0.139);
+  color: #000;
+}
+
+.user-button {
+  background-color: inherit;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 0px 10px;
+  border-radius: 30px;
+  margin-left: 6px;
+}
