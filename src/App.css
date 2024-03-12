@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: aquamarine;
+  padding: 20px 0 0 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: aqua;
   display: flex;
+  width: 100%;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.upper-nav {
+  width: 90%;
+  background-color: rebeccapurple;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.upper-nav>div {
+  width: 100%;
 }
+
+.middle-upper-div {
+  background-color: rgb(255, 255, 255);
+}
+
+.middle-upper-div .middle-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-upper-div .middle-ul li {
+  list-style: none;
+  margin: 20px 4px;
+}
+
+.middle-upper-div .middle-ul li .active {
+  color: #000;
+  transition: all ease 0.3s;
+}
+
+.middle-upper-div .middle-ul li .active:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.middle-upper-div .middle-ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.564);
+  padding: 15px 20px;
+  transition: all ease 0.3s;
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+
+.middle-upper-div .middle-ul li a:hover {
+  background-color: rgba(174, 169, 169, 0.139);
+  color: #000;
+}
+
+.logo-div img {
+  width: 150px;
+}
+

@@ -1,27 +1,18 @@
 import '/Users/ringo/Desktop/airbnbclone/src/App.css'
-import styled from "styled-components"; 
+//import styled from "styled-components"; 
 import Logo from "/Users/ringo/Desktop/airbnbclone/src/images/logo.png"
 import { LuGlobe } from "react-icons/lu";
 import { IoIosMenu } from "react-icons/io";
 import { BiUserCircle } from "react-icons/bi";
+import { CiSearch } from "react-icons/ci";
 
 
 function Header() {
-
-    const Header = styled.section`
-        width:100%;
-    `;
-
-    const Navbar = styled.div`
-        width:100%;
-    `;
-
-
     return(
         <>
-            <Header >
-                <Navbar>
-                    <diiv className="upper-nav">
+            <header >
+                <section className='navbar'>
+                    <nav className="upper-nav">
                         <div className='logo-div'>
                             <img src={Logo} alt='' />
                         </div>
@@ -29,7 +20,7 @@ function Header() {
                         <div className='middle-upper-div'>
                             <ul className='middle-ul'>
                                 <li>
-                                    <a href='#index' >Stays</a>
+                                    <a href='#index' className='active' >Stays</a>
                                 </li>
 
                                 <li>
@@ -56,17 +47,41 @@ function Header() {
                             </ul>
                         </div>
 
-                    </diiv>
+                    </nav>
 
-                    <div className='lower-nav'>
+                    <nav className='lower-nav'>
                         <div className='lower-nav-content'>
                             <form>
-                                
+                                <div className='f-div'>
+                                    <label for="search">
+                                        Where 
+                                    </label>
+                                    <input type='search' placeholder='Search Destinations' />
+                                </div>
+                                <div className='s-div'>
+                                    <h3>Check in</h3>
+                                    <p>Add dates</p>
+                                </div>
+                                <div className='t-div'>
+                                    <h3>Check out</h3>
+                                    <p>Add dates</p>
+                                </div>
+                                <div className='f-div'>
+                                    <div className='f-div-content'>
+                                        <div className='f-div-left'>
+                                            <h3>Who</h3>
+                                            <p>Add guest</p>
+                                        </div>
+                                        <div className='f-div-right'>
+                                            <CiSearch />
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
                         </div>
-                    </div>
-                </Navbar>
-            </Header>
+                    </nav>
+                </section>
+            </header>
         </>
     )
 }
