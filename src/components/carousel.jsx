@@ -38,16 +38,13 @@ import { GiBowlingStrike } from "react-icons/gi";
 
 
 
-
-
-
-
 const CarouselSection = styled.div`
     width:100%;
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:blue;
+    border-top:1px solid rgba(174, 169, 169, 0.342);
+    padding:20px 0 0 0;
     border-top:gray;
 `
 
@@ -56,7 +53,7 @@ const CarouselContainer = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:brown;
+    background-color:#fff;
     flex-direction:row;
 `
 
@@ -91,6 +88,7 @@ const FilterBtn = styled.button`
     border-radius:7px;
     height:5vh;
     font-size:13px;
+    margin-left:6px;
 `;
 
 const CarouselSpan = styled.span`
@@ -103,7 +101,7 @@ function Slider() {
     <>
         <CarouselSection style={{
             width:"100%",
-            background:"blue"
+            borderTop:"1px solid rgba(174, 169, 169, 0.342)"
         }}>
             <CarouselContainer>
             <div className='first-div' style={{width:"75%"}}>
