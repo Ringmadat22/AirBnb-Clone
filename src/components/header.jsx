@@ -4,7 +4,7 @@ import Logo from "/Users/ringo/Desktop/airbnbclone/src/images/logo.png"
 import { LuGlobe } from "react-icons/lu";
 import { IoIosMenu } from "react-icons/io";
 import { BiUserCircle } from "react-icons/bi";
-import { CiSearch } from "react-icons/ci";
+import { FaSearch } from "react-icons/fa";
 
 
 function Header() {
@@ -59,21 +59,25 @@ function Header() {
                                     <input type='search' placeholder='Search Destinations' />
                                 </div>
                                 <div className='s-div'>
-                                    <h3>Check in</h3>
-                                    <p>Add dates</p>
+                                    <div className='s-div-content'>
+                                        <h3>Check in</h3>
+                                        <p>Add dates</p>
+                                    </div>
                                 </div>
                                 <div className='t-div'>
-                                    <h3>Check out</h3>
-                                    <p>Add dates</p>
+                                <div className='t-div-content'>
+                                        <h3>Check in</h3>
+                                        <p>Add dates</p>
+                                    </div>
                                 </div>
-                                <div className='f-div'>
-                                    <div className='f-div-content'>
+                                <div className='fourth-div'>
+                                    <div className='fourth-div-content'>
                                         <div className='f-div-left'>
                                             <h3>Who</h3>
                                             <p>Add guest</p>
                                         </div>
                                         <div className='f-div-right'>
-                                            <CiSearch />
+                                          <FaSearch />
                                         </div>
                                     </div>
                                 </div>
