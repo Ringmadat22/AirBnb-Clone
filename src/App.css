@@ -172,6 +172,10 @@ header {
   background-color: #fff;
 }
 
+.lower-nav-content form .f-div label {
+  padding: 10px 0 0 0;
+}
+
 
 .lower-nav-content form .f-div input {
   padding:5px 0;
