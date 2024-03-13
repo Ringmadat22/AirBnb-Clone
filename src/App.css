@@ -279,7 +279,7 @@ header {
   justify-content: space-evenly;
   display: flex;
   background-color: #fff;
-  padding: 8px;
+  padding: 9px;
   font-size: 13px;
   margin-top: 2px;
   cursor: pointer;
@@ -356,4 +356,54 @@ input:checked + .slider .slider-icon {
 input:checked + .slider:before {
   transform: translateX(1.5em);
   outline-color: #181818;
+}
+
+.carouselItemContent span{
+  font-size: 10px;
+  padding: 5px 0 0  0;
+}
+
+.activeCarouselItemContent{
+  background-color: #fff;
+  transition: 0.3s;
+  color: #000;
+  border-bottom: 2px solid black;
+}
+
+.design{
+  width: 30px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: gray;
+}
+
+.design span{
+  font-size: 12px;
+  padding: 8px 0 0  0;
+}
+
+.design:hover{
+  border-bottom: 2px solid rgba(174, 169, 169, 0.342);
+  color: #000;
+}
+
+.pool,.park {
+  color: gray;
+  transition: 0.3s;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.pool:hover{
+  color: #000;
+  border-bottom: 2px solid rgba(174, 169, 169, 0.342);
+}
+
+#carouselItemContent {
+  color: gray;
+  transition: 0.3s;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+#carouselItemContent:hover{
+  color: #000;
+  border-bottom: 2px solid rgba(174, 169, 169, 0.342);
 }
