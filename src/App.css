@@ -407,3 +407,47 @@ input:checked + .slider:before {
   color: #000;
   border-bottom: 2px solid rgba(174, 169, 169, 0.342);
 }
+
+
+.page-container{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B0B0B0;
+}
+
+.slider-panel{
+  display: flex;
+  align-items: center;
+  width: 25em;
+  height: 25em;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.prev, .next {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.25s;
+}
+
+.prev:hover, .next:hover {transform:  scale(1.25);}
+
+.prev { background-image: url('/Users/ringo/Desktop/airbnbclone/src/images/left.png');}
+
+.next {
+  background-image: url('/Users/ringo/Desktop/airbnbclone/src/images/right.png');
+}
+
+img {
+  max-width: 100%;
+  border-radius: 100%;
+  border-radius: 0.2em;
+}
