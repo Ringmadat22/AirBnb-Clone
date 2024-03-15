@@ -88,7 +88,8 @@ const ImageGallery = () => {
 
                     <h4 style={{
                         color:'#323131',
-                        fontWeight:'400'
+                        fontWeight:'400',
+                        marginTop:'10px',
                     }}><span style={{
                         color:'black',
                         fontWeight:'900',
