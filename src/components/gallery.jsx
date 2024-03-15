@@ -144,6 +144,106 @@ const ImageGallery = () => {
                 </div>
             </div>
 
+            <div className='carousel-container' style={{
+                display:"flex",
+                justifyContent:"space-between",
+                width:"95%",
+                padding:"30px 0",
+            }}>
+
+                <div>
+                    <Carousel images={images} />
+                    <CarouselContent className='Carousel-content'>
+                        <H1>High Mountains</H1>
+                        <Span><FaStar style={{
+                            fontSize:"15px"
+                        }} /> 4.98</Span>
+                    </CarouselContent>
+
+                    <P>9,222 kilometers away</P>
+                    <P>May 22-29</P>
+
+                    <h4 style={{
+                        color:'#323131',
+                        fontWeight:'400',
+                        marginTop:'10px',
+                    }}><span style={{
+                        color:'black',
+                        fontWeight:'900',
+                        fontSize:'1rem'
+                    }}>75$</span> night</h4>
+                </div>
+
+                <div>
+                    <Carousel images={images} />
+                    <CarouselContent className='Carousel-content'>
+                        <H1>High Mountains</H1>
+                        <Span><FaStar style={{
+                            fontSize:"15px"
+                        }} /> 4.98</Span>
+                    </CarouselContent>
+
+                    <P>9,222 kilometers away</P>
+                    <P>May 22-29</P>
+
+                    <h4 style={{
+                        color:'#323131',
+                        fontWeight:'400',
+                        marginTop:'10px',
+                    }}><span style={{
+                        color:'black',
+                        fontWeight:'900',
+                        fontSize:'1rem'
+                    }}>75$</span> night</h4>
+                </div>
+
+                <div>
+                    <Carousel images={images} />
+                    <CarouselContent className='Carousel-content'>
+                        <H1>High Mountains</H1>
+                        <Span><FaStar style={{
+                            fontSize:"15px"
+                        }} /> 4.98</Span>
+                    </CarouselContent>
+
+                    <P>9,222 kilometers away</P>
+                    <P>May 22-29</P>
+
+                    <h4 style={{
+                        color:'#323131',
+                        fontWeight:'400',
+                        marginTop:'10px',
+                    }}><span style={{
+                        color:'black',
+                        fontWeight:'900',
+                        fontSize:'1rem'
+                    }}>75$</span> night</h4>
+                </div>
+
+                <div>
+                    <Carousel images={images} />
+                    <CarouselContent className='Carousel-content'>
+                        <H1>High Mountains</H1>
+                        <Span><FaStar style={{
+                            fontSize:"15px"
+                        }} /> 4.98</Span>
+                    </CarouselContent>
+
+                    <P>9,222 kilometers away</P>
+                    <P>May 22-29</P>
+
+                    <h4 style={{
+                        color:'#323131',
+                        fontWeight:'400',
+                        marginTop:'10px',
+                    }}><span style={{
+                        color:'black',
+                        fontWeight:'900',
+                        fontSize:'1rem'
+                    }}>75$</span> night</h4>
+                </div>
+            </div>
+
             
         </section>
     </>
