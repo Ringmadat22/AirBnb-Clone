@@ -2,20 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header';
-import Carousel from './components/carousel';
 import CarouselMain from './components/carousel-main';
+import ImageGallery from './components/gallery'; // Import the ImageGallery component
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <Header />
     <CarouselMain />
-    <Carousel />
-  </React.StrictMode>
+    <ImageGallery /> {/* Render the ImageGallery component */}
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
