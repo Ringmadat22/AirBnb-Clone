@@ -19,7 +19,6 @@ export const Carousel = ({ images }) => {
   const handleNextImageClick = () => {
     setActiveImage(prevIndex => (prevIndex + 1) % images.length)
   }
-
   return (
     <Container>
       <SlideImage src={images[activeImage]} />
