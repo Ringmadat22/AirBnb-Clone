@@ -96,7 +96,7 @@ const ImageGallery = () => {
                         fontSize:'1rem'
                     }}>75$</span> night</h4>
                 </div>
-                
+
                 <div>
                     <Carousel images={images} />
                     <CarouselContent className='Carousel-content'>
@@ -134,14 +134,14 @@ const ImageGallery = () => {
 
                     <h4 style={{
                         color:'#323131',
-                        fontWeight:'400'
+                        fontWeight:'400',
+                        marginTop:'10px',
                     }}><span style={{
                         color:'black',
                         fontWeight:'900',
                         fontSize:'1rem'
                     }}>75$</span> night</h4>
                 </div>
-
             </div>
 
             
