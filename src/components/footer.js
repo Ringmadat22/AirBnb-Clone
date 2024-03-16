@@ -46,5 +46,102 @@ import '../App.css';
                 </li>
             </ul>
         </div>
+        <div className='middle-footer'>
+            <div className='middle-footer-container'>
+                <div className='middle-footer-content middle-footer-one'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-two'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-three'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-four'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-five'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-six'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div className='middle-footer-container'>
+                <div className='middle-footer-content middle-footer-one'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-two'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-three'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-four'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-five'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-six'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div className='middle-footer-container'>
+                <div className='middle-footer-content middle-footer-one'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-two'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-three'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-four'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-five'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <div className='middle-footer-content middle-footer-six'>
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
