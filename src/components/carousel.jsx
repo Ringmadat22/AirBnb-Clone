@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { PiCaretCircleLeftFill } from "react-icons/pi";
+import { PiCaretCircleRightFill } from "react-icons/pi";
+
+
 
 const Carousel = ({ images }) => {
   const [activeImage, setActiveImage] = React.useState(0);
@@ -23,12 +26,20 @@ const Carousel = ({ images }) => {
       <SlideImage src={images[activeImage]} />
 
       <CarouselButtonsContainer>
-        <LeftArrowContainer onClick={handlePreviousImageClick}>
-          <FaArrowLeft />
+        <LeftArrowContainer  onClick={handlePreviousImageClick}>
+        <PiCaretCircleLeftFill style={{
+          fontSize:"35px",
+          marginLeft:"10px",
+          color:"white"
+        }} />
         </LeftArrowContainer>
 
         <RightArrowContainer onClick={handleNextImageClick}>
-          <FaArrowRight />
+        <PiCaretCircleRightFill style={{
+            fontSize:"35px",
+            marginRight:"10px",
+            color:"white"
+        }} />
         </RightArrowContainer>
       </CarouselButtonsContainer>
     </Container>
