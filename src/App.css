@@ -451,3 +451,25 @@ img {
   border-radius: 100%;
   border-radius: 0.2em;
 }
+
+.show-map-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.show-map-button.visible {
+  opacity: 1;
+}
+
+.show-map-button.hidden {
+  opacity: 0;
+}

@@ -416,6 +416,9 @@ const ImageGallery = () => {
                 </div>
             </div>
 
+            <div className='button-div'>
+                <ShowMapButton >show map</ShowMapButton>
+            </div>
             
 
             
@@ -425,3 +428,10 @@ const ImageGallery = () => {
 }
 
 export default ImageGallery; // Export the ImageGallery component as default
+
+const ShowMapButton = styled.button`
+    background-color:#000;
+    color:#fff;
+    position:fixed;
+    padding:20px 60px
+`
