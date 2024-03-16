@@ -6,43 +6,43 @@ import '../App.css';
             <h2>Inspiration for future getaways</h2>
             <ul className='upper-footer-ul'>
                 <li>
-                    <a href=''></a>
+                    <a href='/popular' className='active'>Popular</a>
                 </li>
 
                 <li>
-                    <a href=''></a>
+                    <a href='/Arts'>Arts & Culture</a>
                 </li>
 
                 <li>
-                    <a href=''></a>
+                    <a href='/outdoors'>Outdoors</a>
                 </li>
 
                 <li>
-                    <a href=''></a>
+                    <a href='/mountains'>Mountains</a>
                 </li>
 
                 <li>
-                    <a href=''></a>
+                    <a href='/Beach'>Beach</a>
                 </li>
 
                 <li>
-                    <a href=''></a>
+                    <a href='/Unique'>Unique Stays</a>
                 </li>
 
                 <li>
-                    <a href=''></a>
+                    <a href='/Categories'>/Categories</a>
                 </li>
 
                 <li>
-                    <a href=''></a>
+                    <a href='/Things'>Things To Do</a>
                 </li>
 
                 <li>
-                    <a href=''></a>
+                    <a href='/Travel'>Travel Tips & Inspiration</a>
                 </li>
 
                 <li>
-                    <a href=''></a>
+                    <a href='/Airbnb'>Airbnb-friendly apartments</a>
                 </li>
             </ul>
         </div>
