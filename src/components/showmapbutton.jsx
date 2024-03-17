@@ -11,6 +11,7 @@ const ShowMapButton = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  
 
   const handleScroll = () => {
     const scrollPosition = window.pageYOffset;
@@ -21,7 +22,7 @@ const ShowMapButton = () => {
     }
   };
 
-  
+
 
   const scrollToTop = () => {
     window.scrollTo({
