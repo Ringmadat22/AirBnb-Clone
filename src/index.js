@@ -5,6 +5,8 @@ import Header from './components/header';
 import CarouselMain from './components/carousel-main';
 import ImageGallery from './components/gallery'; 
 import ShowMapButton from './components/showmapbutton';
+import Footer from './components/footer';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +14,7 @@ ReactDOM.render(
     <CarouselMain />
     <ImageGallery /> 
     <ShowMapButton />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

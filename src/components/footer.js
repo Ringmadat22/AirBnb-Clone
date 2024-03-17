@@ -1,4 +1,9 @@
-import '../App.css';
+
+
+function Footer() {
+    return(
+        <>
+            import '../App.css';
 
 <section className='footer-section'>
     <div className='footer-container'>
@@ -49,99 +54,104 @@ import '../App.css';
         <div className='middle-footer'>
             <div className='middle-footer-container'>
                 <div className='middle-footer-content middle-footer-one'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>hi</h3>
+                    <p>j</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-two'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>j</h3>
+                    <p>j</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-three'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>h</h3>
+                    <p>j</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-four'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>r</h3>
+                    <p>r</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-five'>
-                    <h3></h3>
+                    <h3>h</h3>
                     <p></p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-six'>
-                    <h3></h3>
+                    <h3>j</h3>
                     <p></p>
                 </div>
             </div>
 
             <div className='middle-footer-container'>
                 <div className='middle-footer-content middle-footer-one'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>hi</h3>
+                    <p>j</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-two'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>j</h3>
+                    <p>j</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-three'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>h</h3>
+                    <p>j</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-four'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>r</h3>
+                    <p>r</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-five'>
-                    <h3></h3>
+                    <h3>h</h3>
                     <p></p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-six'>
-                    <h3></h3>
+                    <h3>j</h3>
                     <p></p>
                 </div>
             </div>
 
             <div className='middle-footer-container'>
                 <div className='middle-footer-content middle-footer-one'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>hi</h3>
+                    <p>j</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-two'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>j</h3>
+                    <p>j</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-three'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>h</h3>
+                    <p>j</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-four'>
-                    <h3></h3>
-                    <p></p>
+                    <h3>r</h3>
+                    <p>r</p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-five'>
-                    <h3></h3>
+                    <h3>h</h3>
                     <p></p>
                 </div>
 
                 <div className='middle-footer-content middle-footer-six'>
-                    <h3></h3>
+                    <h3>j</h3>
                     <p></p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+        </>
+    )
+}
+
+export default Footer

@@ -6,20 +6,14 @@ const ShowMapButton = () => {
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
-    // Add scroll event listener to track scroll position
     window.addEventListener('scroll', handleScroll);
-
-    // Remove event listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   const handleScroll = () => {
-    // Determine scroll position
     const scrollPosition = window.pageYOffset;
-
-    // Adjust button visibility based on scroll position
     if (scrollPosition > 0) {
       setShowButton(true);
     } else {
@@ -39,8 +33,7 @@ const ShowMapButton = () => {
       <ButtonSection className={`show-map-button ${showButton ? 'visible' : 'hidden'}`} onClick={scrollToTop}>
           Show Map
       </ButtonSection>
-      {/* Render the footer component */}
-     {/*<Footer /> */} 
+    
     </ButtonContainer>
   );
 };
@@ -52,7 +45,6 @@ const ButtonContainer = styled.div`
 `;
 
 const ButtonSection = styled.div`
-    position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -62,5 +54,4 @@ const ButtonSection = styled.div`
     align-items: center;
 `;
 
-// Import your footer component here
-//import Footer from './Footer';
+
