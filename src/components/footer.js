@@ -63,7 +63,7 @@ function Footer() {
 
                             <div className='middle-footer-content middle-footer-three'>
                                 <h3>Anaheim</h3>
-                                <p>j</p>
+                                <p>Friendly-family rentals</p>
                             </div>
 
                             <div className='middle-footer-content middle-footer-four'>
