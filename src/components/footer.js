@@ -57,28 +57,28 @@ function Footer() {
                             </div>
 
                             <div className='middle-footer-content middle-footer-two'>
-                                <h3>Tucson</h3>
-                                <p>Rentals with pool</p>
+                                <h3>Benalmádena</h3>
+                                <p>Vacation rentals</p>
                             </div>
 
                             <div className='middle-footer-content middle-footer-three'>
-                                <h3>Anaheim</h3>
-                                <p>Friendly-family rentals</p>
+                                <h3>Marbella</h3>
+                                <p>Vacational rentals</p>
                             </div>
 
                             <div className='middle-footer-content middle-footer-four'>
-                                <h3>r</h3>
-                                <p>r</p>
+                                <h3>Mijas</h3>
+                                <p>House rentals</p>
                             </div>
 
                             <div className='middle-footer-content middle-footer-five'>
-                                <h3>h</h3>
-                                <p></p>
+                                <h3>Prescot</h3>
+                                <p>House rentals</p>
                             </div>
 
                             <div className='middle-footer-content middle-footer-six'>
-                                <h3>j</h3>
-                                <p></p>
+                                <h3>Scottsdale</h3>
+                                <p>Vacational rentals</p>
                             </div>
                         </div>
 
