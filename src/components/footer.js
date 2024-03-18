@@ -16,8 +16,8 @@ function Footer() {
                     <div className='upper-footer'>
                         <h2>Inspiration for future getaways</h2>
                         <ul className='upper-footer-ul'>
-                            <li>
-                                <a href='/popular' className='active'>Popular</a>
+                            <li className='active'>
+                                <a href='/popular'>Popular</a>
                             </li>
 
                             <li>
@@ -41,7 +41,7 @@ function Footer() {
                             </li>
 
                             <li>
-                                <a href='/Categories'>/Categories</a>
+                                <a href='/Categories'>Categories</a>
                             </li>
 
                             <li>
