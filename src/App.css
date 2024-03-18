@@ -524,3 +524,35 @@ img {
   font-size: 13px;
   color: #222222;
 }
+
+.middle-footer {
+  background-color: red;
+  padding: 30px 0 50px 60px;
+}
+
+.middle-footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  background-color: #B0B0B0;
+}
+
+.middle-footer-container>div{
+  margin: 20px 0;
+  width: 100%;
+}
+
+.middle-footer-content {
+  margin: 0 30px;
+  background-color: #007bff;
+}
+
+.middle-footer-content h3 {
+  font-size: 15px;
+}
+
+.middle-footer-content p {
+  font-size: 13px;
+  color: rgb(49, 48, 48);
+}
+
