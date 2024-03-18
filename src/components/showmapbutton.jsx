@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+/*import React, { useState, useEffect } from 'react';*/
 import styled from 'styled-components';
 import '../App.css';
-
+/*
 const ShowMapButton = () => {
   const [showButton, setShowButton] = useState(false);
 
@@ -31,6 +31,8 @@ const ShowMapButton = () => {
     });
   };
 
+
+
   return (
     <ButtonContainer>
       <ButtonSection className={`show-map-button ${showButton ? 'visible' : 'hidden'}`} onClick={scrollToTop}>
@@ -45,16 +47,34 @@ export default ShowMapButton;
 
 const ButtonContainer = styled.div`
     position: relative;
-`;
+`;*/
 
 const ButtonSection = styled.div`
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction:column;
     align-items: center;
+    padding:20px 0;
 `;
 
+const Button = styled.button`
+  padding:15px 0;
+  width:160px;
+  background-color:black;
+  border-none;
+  color:white;
+  cursor:pointer;
+  border-radius:9px;
+  outline:none;
+`
 
+function showmapbutton() {
+  return (
+    <ButtonSection>
+      <Button>Show Map Button</Button>
+    </ButtonSection>
+  )
+}
+
+export default showmapbutton
