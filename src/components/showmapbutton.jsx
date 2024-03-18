@@ -62,7 +62,7 @@ const Button = styled.button`
   padding:15px 0;
   width:160px;
   background-color:black;
-  border-none;
+  border:none;
   color:white;
   cursor:pointer;
   border-radius:9px;

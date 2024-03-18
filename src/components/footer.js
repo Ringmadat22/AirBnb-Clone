@@ -52,17 +52,17 @@ function Footer() {
                     <div className='middle-footer'>
                         <div className='middle-footer-container'>
                             <div className='middle-footer-content middle-footer-one'>
-                                <h3>hi</h3>
-                                <p>j</p>
+                                <h3>Canmore</h3>
+                                <p>Pet friendly rentals</p>
                             </div>
 
                             <div className='middle-footer-content middle-footer-two'>
-                                <h3>j</h3>
-                                <p>j</p>
+                                <h3>Tucson</h3>
+                                <p>Rentals with pool</p>
                             </div>
 
                             <div className='middle-footer-content middle-footer-three'>
-                                <h3>h</h3>
+                                <h3>Anaheim</h3>
                                 <p>j</p>
                             </div>
 
