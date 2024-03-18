@@ -155,6 +155,7 @@ function Footer() {
                     </div>
 
                     <div className='lower-footer'>
+                        <div className='lower-footer-div'>
                         <div className="lower-footer-container">
                             <div className="lower-footer-content">
                                 <ul className='lower-footer-ul'>    
@@ -256,10 +257,11 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
+                        </div>
                     </div>
 
                     <div className="copyright">
-                        <div className='copy-right-container'>
+                        <div className='copyright-container'>
                             <ul className='copyright-ul'>
                                 <p>&copy; Airbnb, inc</p>
                                 <li>
@@ -290,15 +292,15 @@ function Footer() {
                                 </li>
 
                                 <li>
-                                    <a href='/'><FaFacebookSquare /></a>
+                                    <a href='/'><FaFacebookSquare className='icon' /></a>
                                 </li>
 
                                 <li>
-                                    <a href='/'><FaSquareTwitter /></a>
+                                    <a href='/'><FaSquareTwitter className='icon' /></a>
                                 </li>
 
                                 <li>
-                                    <a href='/'><FaInstagramSquare /></a>
+                                    <a href='/'><FaInstagramSquare className='icon' /></a>
                                 </li>
                             </ul>
                         </div>

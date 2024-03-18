@@ -477,7 +477,7 @@ img {
 /* FOOTER */
 
 .footer-section{
-  background-color: gray;
+  background-color: rgba(53, 51, 51, 0.05);
   margin-top: 40px;
   display: flex;
   justify-content: center;
@@ -487,12 +487,8 @@ img {
 
 .footer-container{
   width: 100%;
-  background-color: #007bff;
 }
 
-.upper-footer{
-  border-bottom: #000 1px solid red;
-}
 
 .upper-footer h2 {
   margin-left: 60px;
@@ -501,8 +497,8 @@ img {
 
 .upper-footer-ul {
   display: flex;
-  border-bottom: 1px solid gray;
-  width: 90%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.201);
+  width: 93%;
   margin: 0 60px;
 }
 
@@ -522,20 +518,19 @@ img {
 
 .upper-footer-ul li a {
   font-size: 13px;
-  color: #222222;
+  color: rgba(112, 110, 110, 0.995);
 }
 
 .middle-footer {
-  background-color: red;
   padding: 30px 0 50px 60px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.201);
+  margin-bottom: 40px;
 }
 
 .middle-footer-container {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  background-color: #B0B0B0;
+  width: 96%;
 }
 
 .middle-footer-container>div{
@@ -545,7 +540,6 @@ img {
 
 .middle-footer-content {
   margin: 0 30px;
-  background-color: #007bff;
 }
 
 .middle-footer-content h3 {
@@ -555,21 +549,24 @@ img {
 
 .middle-footer-content p {
   font-size: 13px;
-  color: rgb(49, 48, 48);
+  color: rgba(112, 110, 110, 0.995);
   cursor: pointer;
 }
 
+.lower-footer-div{
+  width: 93%;
+  margin-left: 60px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.201);
+
+}
+
 .lower-footer {
-  background-color: pink;
   display: flex;
 }
 
 .lower-footer-container {
-  width: 71%;
-  background-color: aqua;
-  margin-left: 60px;
+  width: 81%;
   padding-bottom: 50px;
-  border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
 }
@@ -583,10 +580,49 @@ img {
   cursor: auto;
   font-weight: 900;
   cursor: text;
+  font-size: 17px;
 }
 
 .lower-footer-ul li a {
-  color: #000;
-  font-weight: 200;
-  font-size: 15px;
+  color: rgba(112, 110, 110, 0.995);
+  font-weight: 400;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.lower-footer-ul li a:hover {
+  text-decoration: underline;
+}
+
+.copyright{
+  display: flex;
+}
+
+.copyright-container {
+  width: 93%;
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.copyright-ul {
+  display: flex;
+}
+
+.copyright-ul li {
+  margin: 0 10px;
+}
+
+.copyright-ul li a {
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.copyright-ul li a:hover{
+text-decoration: underline;
+}
+
+.icon {
+  font-size: 22px;
 }
