@@ -67,11 +67,16 @@ const Button = styled.button`
   cursor:pointer;
   border-radius:9px;
   outline:none;
+  &
 `
 
 function showmapbutton() {
   return (
     <ButtonSection>
+      <h3 style={{
+        margin:"20px",
+        fontWeight:"300"
+      }}>Continue exploring amazing pools</h3>
       <Button>Show Map Button</Button>
     </ButtonSection>
   )
