@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import '../App.css'
+import '../App.css';
 
 const ShowMapButton = () => {
   const [showButton, setShowButton] = useState(false);
