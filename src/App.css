@@ -528,6 +528,7 @@ img {
 .middle-footer {
   background-color: red;
   padding: 30px 0 50px 60px;
+  border-bottom: 1px solid black;
 }
 
 .middle-footer-container {
@@ -549,10 +550,43 @@ img {
 
 .middle-footer-content h3 {
   font-size: 15px;
+  cursor: pointer;
 }
 
 .middle-footer-content p {
   font-size: 13px;
   color: rgb(49, 48, 48);
+  cursor: pointer;
 }
 
+.lower-footer {
+  background-color: pink;
+  display: flex;
+}
+
+.lower-footer-container {
+  width: 71%;
+  background-color: aqua;
+  margin-left: 60px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-footer-ul li {
+  padding: 6px 0;
+}
+
+.lower-footer-ul .active a{
+  color: #000;
+  cursor: auto;
+  font-weight: 900;
+  cursor: text;
+}
+
+.lower-footer-ul li a {
+  color: #000;
+  font-weight: 200;
+  font-size: 15px;
+}

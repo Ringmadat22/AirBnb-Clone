@@ -158,8 +158,8 @@ function Footer() {
                         <div className="lower-footer-container">
                             <div className="lower-footer-content">
                                 <ul className='lower-footer-ul'>    
-                                    <li>
-                                        <a className='active' href="support">Support</a>
+                                    <li className='active'>
+                                        <a  href="support">Support</a>
                                     </li>
 
                                     <li>
@@ -190,8 +190,8 @@ function Footer() {
 
                             <div className="lower-footer-content">
                                 <ul className='lower-footer-ul'>    
-                                    <li>
-                                        <a className='active' href="/hostin">Hostin</a>
+                                    <li className='active'>
+                                        <a  href="/hostin">Hosting</a>
                                     </li>
 
                                     <li>
@@ -226,8 +226,8 @@ function Footer() {
 
                             <div className="lower-footer-content">
                                 <ul className='lower-footer-ul'>    
-                                    <li>
-                                        <a className='active' href="#airbnb">Airbnb</a>
+                                    <li className='active'>
+                                        <a  href="#airbnb">Airbnb</a>
                                     </li>
 
                                     <li>
